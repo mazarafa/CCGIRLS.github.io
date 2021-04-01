@@ -3,11 +3,11 @@ import {
     Route, Switch
 } from 'react-router-dom';
 
-import About from './../components/About';
+/* import About from './../components/About'; */
 import Home from './../components/Home';
 import Contact from './../components/Contact';
 import Blog from './../components/Blog';
-import NoMatch from './../components/NoMatch';
+/* import NoMatch from './../components/NoMatch'; */
 
 export class Routes extends Component {
     render() {
