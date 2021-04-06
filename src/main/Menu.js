@@ -27,7 +27,7 @@ const Menu = () => {
   
               </li>
               <li className="option" onClick={closeMobileMenu}>
-                <Link to="/Contact">CONTACT</Link>
+                <Link to="/Participar">PARTICIPAR</Link>
   
               </li>
             </ul>
