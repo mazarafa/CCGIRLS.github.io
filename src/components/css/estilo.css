@@ -34,15 +34,26 @@
     margin-top: 5%;
     margin-left: 0%;
     margin-right: 9%;
+    font-weight: 300;
+}
+
+.subdescription{
+    margin-top: 5%;
+    text-align: justify;
+    font-weight: 300;
 }
 
 img {
    /*  display: block;
     height: auto;
     max-width: 100%; */
-    max-width: 200%;
+   /*  max-width: 200%;
+    margin-left: -30%; */
     margin-left: -30%;
+    width: 100%;
 }
+
+
 
 @media screen and (max-width: 900px) {
 
@@ -52,7 +63,7 @@ img {
       text-align: center;
     }
     .large-font {
-        font-size: 49px;
+        font-size: 46px;
         color: #6616fc;
         margin-top: 43%;
     }
@@ -100,10 +111,6 @@ img {
     display: table;
 }
 
-.subdescription{
-    margin-top: 5%;
-    text-align: justify;
-}
 
 @media screen and (max-width: 650px) {
     .column {
