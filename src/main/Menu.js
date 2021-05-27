@@ -1,8 +1,8 @@
 import {Link} from 'react-router-dom';
 import React, { useState } from "react";
-import { ReactComponent as CloseMenu } from "../components/assets/x.svg";
-import { ReactComponent as MenuIcon } from "../components/assets/menu.svg";
-import { ReactComponent as Logo } from "../components/assets/logo.svg";
+import { ReactComponent as CloseMenu } from "./../assets/x.svg";
+import { ReactComponent as MenuIcon } from "./../assets/menu.svg";
+import { ReactComponent as Logo } from "./../assets/logo.svg";
 import "./menu.css";
 
 const Menu = () => {

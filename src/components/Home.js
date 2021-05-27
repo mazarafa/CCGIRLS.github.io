@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
-import techStudent from "./assets/rede-local.svg"
-import "./css/estilo.css";
+import techStudent from "./../assets/undraw_adventure_map_hnin.svg";
+import "./css/style.css";
+
 
 export class Home extends Component {
     render() {
@@ -51,7 +52,7 @@ export class Home extends Component {
                         <div className="card">
 
                             <div className="card-container">
-                                <h2>Linhas de Pesquisa / Trabalho</h2>
+                                <h2>Linhas de Pesquisa</h2>
 
                                 <p className="subdescription">You should buy this app because lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                    ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi

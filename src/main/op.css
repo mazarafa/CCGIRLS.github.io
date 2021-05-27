@@ -1,0 +1,19 @@
+.app-footer {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(#6616fc, #f394d3);
+    /* color: white; */
+    text-align: center;
+    height: 8%;
+    color: white;
+    padding: 83px 0;
+    margin-top: 10%;
+   
+}
+
+.app-footer__message {
+
+    font-family: sans-serif;
+}

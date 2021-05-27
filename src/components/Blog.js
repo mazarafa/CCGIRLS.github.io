@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import PictureUnicorn from "./assets/unicornio.svg"
-import "./css/estilo.css";
+import PictureUnicorn from "./../assets/undraw_Server_re_twwj.svg";
+import "./css/style.css";
+
 export class Blog extends Component {
     render() {
         return (
@@ -15,8 +16,11 @@ export class Blog extends Component {
                     </div>
 
 
-                    <div className="column-33">
-                        <img src={PictureUnicorn} className="App-logoUnicornio" alt="" />
+                    <div className="column">
+                        <div className="card">
+                        
+                            <img src={PictureUnicorn} className="App-logoUnicornio" alt="" />
+                        </div>
                     </div>
                 </div>
 
